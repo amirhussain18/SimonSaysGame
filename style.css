@@ -1,0 +1,68 @@
+body {
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    background-color: gray;
+    text-shadow: 1px 1px 5px white;
+}
+
+.danger {
+    background-color: red;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    border: 4px black solid;
+    border-radius: 10px;
+    margin: 10px;
+    display: inline-block;
+    box-shadow: 0px 0px 10px black;
+}
+
+div:hover {
+    transform: scale(1.05);
+}
+
+.btn1 {
+    background-color: rgb(218, 26, 26);
+}
+
+.btn2 {
+    background-color: rgb(0, 85, 255);
+}
+
+.btn3 {
+    background-color: rgb(43, 192, 43);
+}
+
+.btn4 {
+    background-color: rgb(228, 156, 23);
+}
+
+.flash {
+    background-color: white;
+}
+
+p {
+    font-weight: bold;
+    display: none;
+}
+
+button {
+    background-color: green;
+    border: 2px solid black;
+    height: 40px;
+    width: 75px;
+    margin-top: 20px;
+    border-radius: 7px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    box-shadow: 0px 0px 8px black;
+    display: none;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
